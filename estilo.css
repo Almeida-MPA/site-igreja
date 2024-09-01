@@ -1,0 +1,173 @@
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+  display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10px;
+    
+    background-image: linear-gradient(-45deg, #13293d 0%, #4682b4 100%);
+    justify-content: top;
+  
+}
+
+main {
+flex-grow:1;
+}
+
+
+.rodape {
+	position: flex;
+	left: 0;
+	bottom: 10;
+	width:100%;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}	
+
+
+.rodape2 {
+	display: grid;
+  position: sticky;
+	height: 100%;
+  width: 100%;
+  justify-items: center;
+	grid-template-rows: auto 1fr auto;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+  image-orientation: center;
+}
+
+
+.rodape3 {
+	display: grid;
+	height: 100vh;
+  justify-items: center;
+	grid-template-rows: auto;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+  image-orientation: center;
+}
+
+
+
+
+footer{
+background-color: #ffab62;
+width: 100%;
+height: 100px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+
+
+.rodapeimg {
+
+  	position: flex;
+	left: 0;
+	bottom: 10;
+	width:100%;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}	
+
+  
+
+
+
+
+.nome{
+    font-size: 2rem;
+    color: #ffffff;
+    align-self: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    font-weight: 800;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+.endereço{
+    font-size: 12px;
+    color: #ffffff;
+    align-self: center;
+    
+    text-align: center;
+    
+	text-decoration: none;
+}
+
+
+.texto-sobre-imagem{
+    font-size: 12px;
+    color: #ffffff;
+    align-self: center;
+    height: auto;
+    width: 500px;
+    text-align: center;
+    top: 92%;
+    font-weight: bold;
+
+}
+
+.logo {
+    /* top: 90%; Distância da base */
+    width: 50px; /* Largura da imagem */
+    height: auto; /* Altura ajustável de acordo com a largura */
+	
+}
+
+
+.insta {
+    /* top: 90%; Distância da base */
+    width: 45px; /* Largura da imagem */
+    height: auto; /* Altura ajustável de acordo com a largura */
+	
+}
+
+
+.container {
+    margin: 10px;
+    vertical-align: text-top;
+    text-align: justify;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+    displai: grid;
+    grid-template-columns:
+repeat(auto-fit,
+minmax(300px, 1fr));
+gap: 20px;   
+  
+}
+
+
+
+
+.h1 {
+   
+    font-size: 10vw;
+    color: #ffffff;
+  font-weight: 800;
+}
+
+
+h2 {
+ background-color: hsla(0,0%,50%,0.3);
+  
+}
